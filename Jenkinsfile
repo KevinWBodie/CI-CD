@@ -9,6 +9,8 @@ pipeline {
                 sh 'docker --version'
                 sh 'docker --version'
                 sh 'docker --version'
+                sh 'pwd'
+                sh 'whoami'
             }
         }
     }
