@@ -13,7 +13,7 @@ pipeline {
                 sh 'whoami'
                 sh 'cd ~'
                 sh 'ls -al'
-                sh 'cd Software*'
+                sh 'cd Downloads'
                 sh 'ls -al'
             }
         }
