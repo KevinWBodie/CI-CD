@@ -13,6 +13,7 @@ pipeline {
                 sh 'whoami'
                 sh 'cd ~'
                 sh 'ls -al'
+                sh 'echo mike is here'
                 sh 'cd Downloads'
                 sh 'ls -al'
             }
